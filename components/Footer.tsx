@@ -57,21 +57,6 @@ export default function Footer() {
         </div>
       </footer>
 
-      {/* Floating CTA Button */}
-      <motion.div
-        initial={{ opacity: 0, scale: 0.8 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.5, delay: 2 }}
-        className="fixed bottom-6 right-6 z-50"
-      >
-        <a
-          href={`mailto:${CONTACT_EMAIL}?subject=Ücretsiz Analiz Talebi`}
-          className="flex items-center gap-2 px-5 py-3 rounded-full bg-[#0ea5e9] hover:bg-[#0284c7] text-white font-semibold text-sm shadow-lg shadow-[rgba(14,165,233,0.3)] transition-all duration-200 hover:-translate-y-1 hover:shadow-xl hover:shadow-[rgba(14,165,233,0.4)]"
-        >
-          <span>✉️</span>
-          Bize Yazın
-        </a>
-      </motion.div>
     </>
   );
 }

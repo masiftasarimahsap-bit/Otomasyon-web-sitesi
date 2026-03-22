@@ -7,33 +7,29 @@ const BENEFITS = [
     icon: "📈",
     title: "Ekip Kurmadan Büyüyün",
     description:
-      "Otomasyon sayesinde iş hacminizi artırırken ekip maliyetlerinizi sabit tutun. İnsan kaynağınızı yalnızca stratejik işlere yönlendirin.",
-    stat: "3x",
-    statLabel: "Büyüme kapasitesi",
+      "Ek personel almadan iş hacminizi artırın. İnsan kaynağınızı yalnızca stratejik ve yaratıcı işlere yönlendirin, tekrar eden görevleri otomasyona bırakın.",
+    badge: "Ölçeklenebilir Büyüme",
   },
   {
     icon: "🎯",
-    title: "Hata Payı Sıfır",
+    title: "İnsan Hatasını Minimize Edin",
     description:
-      "Manuel veri girişi ve tekrarlayan işlemlerdeki insan hatalarını ortadan kaldırın. Tutarlı, güvenilir ve hatasız süreçler.",
-    stat: "~0%",
-    statLabel: "Hata oranı",
+      "Manuel veri girişi ve tekrarlayan işlemlerdeki tutarsızlıkları ortadan kaldırın. Güvenilir, hatasız ve her seferinde aynı sonucu veren süreçler kurun.",
+    badge: "Tutarlı Süreçler",
   },
   {
     icon: "⏱️",
-    title: "%70 Zaman Tasarrufu",
+    title: "Tekrarlayan İşlerden Kurtulun",
     description:
-      "Manuel iş yükünüzü dramatik biçimde azaltın. Ekibiniz tekrar eden görevler yerine değer yaratan işlere odaklanabilsin.",
-    stat: "%70",
-    statLabel: "Manuel iş azaltımı",
+      "Günlük rutin görevleri otomatikleştirin. Ekibiniz aynı aksiyonu defalarca yapmak yerine müşteri ilişkileri ve karar alma gibi işlere odaklanabilsin.",
+    badge: "Zaman Kazanın",
   },
   {
     icon: "🔒",
-    title: "Size Özel Çözüm",
+    title: "İş Modelinize Özel Tasarım",
     description:
-      "Hazır şablonlar değil, iş modelinize ve süreçlerinize birebir uyan özel otomasyon senaryoları tasarlıyoruz.",
-    stat: "100%",
-    statLabel: "Özelleştirme",
+      "Hazır şablonlar değil, sizin iş akışlarınıza ve araçlarınıza birebir uyan özel otomasyon senaryoları. Sektörünüze ve süreçlerinize göre tasarlanmış çözümler.",
+    badge: "Özel Geliştirme",
   },
 ];
 
@@ -80,14 +76,9 @@ export default function WhyUs() {
                   <h3 className="text-base font-semibold text-[#0f172a]">
                     {benefit.title}
                   </h3>
-                  <div className="text-right shrink-0">
-                    <div className="text-lg font-bold gradient-text leading-none">
-                      {benefit.stat}
-                    </div>
-                    <div className="text-xs text-[#94a3b8] mt-0.5">
-                      {benefit.statLabel}
-                    </div>
-                  </div>
+                  <span className="text-xs font-medium text-[#0ea5e9] bg-[rgba(14,165,233,0.08)] border border-[rgba(14,165,233,0.2)] px-2 py-0.5 rounded-full shrink-0 whitespace-nowrap">
+                    {benefit.badge}
+                  </span>
                 </div>
                 <p className="text-sm text-[#64748b] leading-relaxed">
                   {benefit.description}
