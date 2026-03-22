@@ -4,7 +4,6 @@ import Services from "@/components/Services";
 import CaseStudies from "@/components/CaseStudies";
 import Process from "@/components/Process";
 import WhyUs from "@/components/WhyUs";
-import Founder from "@/components/Founder";
 import Pricing from "@/components/Pricing";
 import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
@@ -18,7 +17,6 @@ export default function Home() {
       <CaseStudies />
       <Process />
       <WhyUs />
-      <Founder />
       <Pricing />
       <ContactForm />
       <Footer />
