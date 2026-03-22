@@ -33,7 +33,7 @@ function getBotResponse(input: string): string {
     return "Evet! Web sitenize veya WhatsApp'ınıza özel AI chatbot kuruyoruz. Müşteri sorularını otomatik yanıtlar, randevu alır, sipariş takibi yapar. Detay için görüşme ayarlayalım!";
   }
   if (q.includes("make") || q.includes("zapier") || q.includes("otomasyon")) {
-    return "Make.com ve Zapier konusunda uzmanız. Shopify, HubSpot, WhatsApp, Google Sheets, Slack ve daha pek çok araçla entegrasyon kuruyoruz. Hangi aracı kullanıyorsunuz?";
+    return "n8n ve web tabanlı özel entegrasyonlar konusunda uzmanız. Shopify, HubSpot, WhatsApp, Google Sheets, Slack ve daha pek çok araçla bağlantı kuruyoruz. Hangi aracı kullanıyorsunuz?";
   }
   if (q.includes("teşekkür") || q.includes("sağ ol") || q.includes("tamam")) {
     return "Rica ederim! Başka bir sorunuz olursa buradayım. Ücretsiz görüşme için info@masifspecial.com 🙌";

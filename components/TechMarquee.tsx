@@ -1,8 +1,8 @@
 "use client";
 
 const TECH_STACK = [
-  { name: "Make.com", icon: "⚙️" },
-  { name: "Zapier", icon: "⚡" },
+  { name: "n8n", icon: "⚙️" },
+  { name: "Web Entegrasyonları", icon: "🔗" },
   { name: "OpenAI", icon: "🤖" },
   { name: "HubSpot", icon: "🔶" },
   { name: "Notion", icon: "📋" },

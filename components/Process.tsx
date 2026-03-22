@@ -22,9 +22,9 @@ const STEPS = [
     duration: "1–3 hafta",
     icon: "⚙️",
     description:
-      "Make.com, Zapier veya özel entegrasyonlarla otomasyon senaryolarınızı inşa ediyoruz. Her adım sizinle birlikte test ediliyor.",
+      "n8n veya web tabanlı özel entegrasyonlarla otomasyon senaryolarınızı inşa ediyoruz. Her adım sizinle birlikte test ediliyor.",
     deliverables: [
-      "Make.com / Zapier senaryoları",
+      "n8n iş akışları veya özel entegrasyon",
       "Canlı testler ve onaylar",
       "Sınırsız revizyon hakkı",
     ],

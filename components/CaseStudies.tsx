@@ -10,14 +10,14 @@ const CASES = [
     title: "Sipariş & Kargo Otomasyonu",
     problem:
       "Bir e-ticaret mağazası her siparişi manuel olarak takip ediyor, kargo bilgilerini tek tek müşterilere gönderiyordu. Günlük ortalama 2 saat bu iş için harcanıyordu.",
-    solution: "Shopify → Make.com → WhatsApp Business API entegrasyonu kuruldu.",
+    solution: "Shopify → n8n → WhatsApp Business API entegrasyonu kuruldu.",
     steps: [
       "Yeni sipariş → otomatik onay mesajı (WhatsApp)",
       "Kargo oluşturulunca → takip linki müşteriye iletilir",
       "Teslimat tamamlanınca → memnuniyet anketi gönderilir",
     ],
     result: "Günlük ~2 saatlik manuel iş tamamen ortadan kalktı.",
-    tools: ["Shopify", "Make.com", "WhatsApp API"],
+    tools: ["Shopify", "n8n", "WhatsApp API"],
   },
   {
     tag: "CRM & Satış",
@@ -33,7 +33,7 @@ const CASES = [
       "Slack kanalına → anlık bildirim düşer (isim, şirket, talep)",
     ],
     result: "Lead yanıt süresi ortalama 4 saatten 10 dakikanın altına indi.",
-    tools: ["Tally", "HubSpot", "Slack", "Make.com"],
+    tools: ["Tally", "HubSpot", "Slack", "n8n"],
   },
   {
     tag: "İçerik & Sosyal Medya",

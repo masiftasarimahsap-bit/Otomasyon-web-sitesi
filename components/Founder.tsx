@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const CONTACT_EMAIL = "info@masifspecial.com";
 
 const TOOLS = [
-  "Make.com", "Zapier", "OpenAI API", "HubSpot",
+  "n8n", "OpenAI API", "HubSpot",
   "Shopify", "WhatsApp Business API", "Airtable", "Notion",
 ];
 

@@ -14,7 +14,7 @@ const PLANS = [
     features: [
       "1 otomasyon senaryosu",
       "Örn: Form → CRM → bildirim",
-      "Make.com veya Zapier kurulumu",
+      "n8n veya web tabanlı entegrasyon kurulumu",
       "Test ve devreye alma",
       "Video kullanım eğitimi",
       "30 gün e-posta desteği",
