@@ -60,7 +60,7 @@ export default function Founder() {
           >
             {/* Replace with your real name */}
             <h3 className="text-2xl font-bold text-[#0f172a] mb-1">
-              [Adınız Soyadınız]
+              Hasan Özel
             </h3>
             <p className="text-sm text-[#0ea5e9] font-medium mb-5">
               AI & Otomasyon Uzmanı · MasifSpecial Kurucusu
